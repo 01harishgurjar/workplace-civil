@@ -1,0 +1,501 @@
+body {
+    background-color: gainsboro;
+}
+
+.nav {
+    height: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav span {
+    float: left;
+    padding: 3px;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: grey;
+}
+
+.nav .manuBtn {
+    float: right;
+    margin: 10px;
+}
+
+.nav .manuBtn .manuLine {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin-top: 8px;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home img {
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+}
+
+.home .orange-div {
+    width: 600px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 500px;
+    left: 280px;
+}
+
+.home .details-div {
+    width: 600px;
+    height: 330px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    z-index: 3;
+    top: 600px;
+    left: 500px;
+    padding: 20px;
+}
+
+.home .details-div h1 {
+    font-size: 40px;
+}
+
+.home .details-div p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.moreBtn {
+    background-color: orange;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    font-family: "monospace";
+}
+
+.moreBtn:hover {
+    background-color: black;
+}
+
+.services {
+    width: 100%;
+    margin-top: 700px;
+    background-color: white;
+}
+
+.services .Hading {
+    font-size: 50px;
+    position: absolute;
+    top: 1050px;
+    left: 650px;
+}
+
+.services .services-card {
+    width: 270px;
+    height: 400px;
+    margin: 30px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.services .services-card .card-logo {
+    width: 90px;
+    height: 90px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.services .services-card .card-logo i {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.services .services-card h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.services .servies-card-1 {
+    position: relative;
+    top: -250px;
+}
+
+.services .servies-card-2 {
+    position: relative;
+    top: -190px;
+}
+
+.services .services-card p {
+    font-size: 25px;
+}
+
+.services .services-card .learnBtn {
+    margin-top: 30px;
+    width: 150px;
+    border-bottom: 2px solid orangered;
+}
+
+.services .services-card .learnBtn:hover {
+    color: orange;
+}
+
+.services .simplicity {
+    padding-bottom: 200px;
+}
+
+.services .simplicity .left-div {
+    width: 350px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.services .simplicity .left-div img {
+    width: 300px;
+    border-radius: 50% 50% 0 0;
+}
+
+.services .simplicity .right-div {
+    width: 350px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.services .simplicity .right-div img {
+    width: 300px;
+    border-radius: 0 0 50% 50%;
+}
+
+.services .simplicity .orange-color-div {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+
+.services .simplicity .orange-color-div h3 {
+    font-size: 25px;
+}
+
+.services .simplicity .orange-color-div p {
+    font-size: 17px;
+}
+
+.circle-box {
+    border-radius: 50%;
+}
+
+.company {
+    padding-bottom: 400px;
+}
+
+.company .circle-orange {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    top: 500px;
+    left: 500px;
+}
+
+.company img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 0px;
+    left: 800px;
+}
+
+.company .circle-white {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    top: 170px;
+    left: 400px;
+}
+
+.company .company-details {
+    width: 1300px;
+    position: absolute;
+    top: 3570px;
+    left: 200px;
+}
+
+.company .company-details h1 {
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+.company .company-details p {
+    font-size: 23px;
+    margin-bottom: 70px;
+}
+
+.div-five {
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+}
+
+.div-five img {
+    width: 402px;
+    height: 795px;
+    /* border-radius: 50% 0 0 50%; */
+    border-top-left-radius: 800%;
+    border-bottom-left-radius: 800%;
+    display: inline-block;
+}
+
+.div-five .div-five-right-box {
+    width: 500px;
+    display: inline-block;
+    padding: 100px;
+    position: relative;
+    top: -100px;
+
+}
+
+.div-five .div-five-right-box h1 {
+    font-size: 37px;
+    margin-bottom: 50px;
+}
+
+.div-five .div-five-right-box p {
+    font-size: 20px;
+    font-family: monospace;
+    margin-bottom: 50px;
+}
+
+.div-five-moreBtn {
+    background-color: orange;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    font-family: "monospace";
+}
+
+.div-five-moreBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* ###############  div-six ###############  */
+
+.div-six-A {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+.div-six-B {
+    background-color: white;
+}
+
+.div-six-B .image {
+    border-radius: 10px;
+    position: relative;
+    top: -300px;
+    left: 400px;
+}
+
+.div-six-B .orange-card {
+    width: 500px;
+    padding: 30px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    top: -500px;
+    left: 900px;
+}
+
+.div-six-B .orange-card p {
+    font-size: 30px;
+}
+
+.div-six-B .orange-card h1 {
+    font-size: 40px;
+}
+
+.div-six-B .details-card {
+    width: 400px;
+    padding: 30px;
+    position: relative;
+    top: -800px;
+    left: 400px;
+}
+
+
+.div-six-B .details-card h3 {
+    font-size: 25px;
+}
+
+
+.div-six-B .details-card p {
+    margin-bottom: 30px;
+}
+
+
+.div-six-C {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 6450px;
+}
+
+.div-six-C .img-1 {
+    border: 3px solid orange;
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
+
+.div-six-C .img-2 {
+    position: absolute;
+    top: 70px;
+    left: 900px;
+}
+
+.div-six-C .orange-deatils-card {
+    width: 800px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+
+.div-six-C .orange-deatils-card span {
+    font-size: 85px;
+    font-weight: bolder;
+}
+
+.div-six-C .orange-deatils-card p {
+    font-size: 25px;
+}
+
+
+
+/* ###############  Contact Box ###############  */
+
+
+.contact-box {
+    width: 100%;
+    height: 90vh;
+    background-image: url("images/contack-box-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-box form {
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.contact-box form h1{
+    color: orange;
+}
+
+.contact-box form #name,
+#email,
+#message {
+    width: 400px;
+    display: flex;
+    border: none;
+    padding: 4px;
+}
+
+.contact-box form hr{
+    width: 500px;
+    color: orange;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.contact-box form #message{
+    padding-bottom: 80px;
+}
+.contact-box form label span{
+    color: rgb(225, 179, 94);
+}
+
+.contact-box form .submitBtn{
+    width: 120px;
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+.contact-box form .submitBtn span{
+    font-size: 20px;
+}
+
+
+.contact-box form .submitBtn:hover{
+    background-color: rgba(255, 166, 0, 0.527);
+    color: black;
+}
+
+.contact-box .contact-details{
+    width: 500px;
+    background-color: orange;
+    color: white;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 0px 30px 30px 0px;
+}
+
+
+/* ###############  Footer  ###############  */
+
+footer{
+    /* height: 100px; */
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer a:hover{
+    color: orange;
+}
+
+footer img{
+    border-radius: 50%;
+}
